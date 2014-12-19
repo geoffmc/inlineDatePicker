@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D89A0F021A44D3AD0052E1F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A0F011A44D3AD0052E1F8 /* AppDelegate.swift */; };
-		D89A0F041A44D3AD0052E1F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A0F031A44D3AD0052E1F8 /* ViewController.swift */; };
 		D89A0F071A44D3AD0052E1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89A0F051A44D3AD0052E1F8 /* Main.storyboard */; };
 		D89A0F091A44D3AD0052E1F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89A0F081A44D3AD0052E1F8 /* Images.xcassets */; };
 		D89A0F0C1A44D3AD0052E1F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89A0F0A1A44D3AD0052E1F8 /* LaunchScreen.xib */; };
 		D89A0F181A44D3AE0052E1F8 /* inlineDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A0F171A44D3AE0052E1F8 /* inlineDatePickerTests.swift */; };
+		D89A0F221A44D3E00052E1F8 /* personTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A0F211A44D3E00052E1F8 /* personTVC.swift */; };
+		D89A0F241A44D3F40052E1F8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A0F231A44D3F40052E1F8 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		D89A0EFC1A44D3AD0052E1F8 /* inlineDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inlineDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89A0F001A44D3AD0052E1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D89A0F011A44D3AD0052E1F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D89A0F031A44D3AD0052E1F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D89A0F061A44D3AD0052E1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D89A0F081A44D3AD0052E1F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D89A0F0B1A44D3AD0052E1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D89A0F111A44D3AE0052E1F8 /* inlineDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inlineDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89A0F161A44D3AE0052E1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D89A0F171A44D3AE0052E1F8 /* inlineDatePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inlineDatePickerTests.swift; sourceTree = "<group>"; };
+		D89A0F211A44D3E00052E1F8 /* personTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personTVC.swift; sourceTree = "<group>"; };
+		D89A0F231A44D3F40052E1F8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				D89A0F011A44D3AD0052E1F8 /* AppDelegate.swift */,
-				D89A0F031A44D3AD0052E1F8 /* ViewController.swift */,
+				D89A0F211A44D3E00052E1F8 /* personTVC.swift */,
+				D89A0F231A44D3F40052E1F8 /* Person.swift */,
 				D89A0F051A44D3AD0052E1F8 /* Main.storyboard */,
 				D89A0F081A44D3AD0052E1F8 /* Images.xcassets */,
 				D89A0F0A1A44D3AD0052E1F8 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D89A0F041A44D3AD0052E1F8 /* ViewController.swift in Sources */,
 				D89A0F021A44D3AD0052E1F8 /* AppDelegate.swift in Sources */,
+				D89A0F241A44D3F40052E1F8 /* Person.swift in Sources */,
+				D89A0F221A44D3E00052E1F8 /* personTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
